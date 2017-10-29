@@ -1,0 +1,22 @@
+#include <iostream> 
+
+using namespace std; 
+
+int main() 
+{ 
+
+char ch; 
+short int a,b,itog; 
+cout « "vvedite chisla" « endl; 
+cin » a; 
+cout « " vtoroe chislo"«endl; 
+cin » b; 
+cout « " Teper rezultat"«endl; 
+cin » itog; 
+if (itog == a*b){ 
+cout « "znaesh"; 
+} 
+else cout « "NET. Pravilno budet » " « a*b; 
+return 0; 
+
+}
